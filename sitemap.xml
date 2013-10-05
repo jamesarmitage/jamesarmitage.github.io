@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>
+            http://jamesarmitage.github.io/blog/2013/10/05/taking-octopress-for-a-test-drive/
+        </loc>
+        <lastmod>2013-10-05T11:29:15-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jamesarmitage.github.io/blog/archives/</loc>
+        <lastmod>2013-10-05T11:29:15-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jamesarmitage.github.io/</loc>
+        <lastmod>2013-10-05T11:29:15-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jamesarmitage.github.io/robots.txt</loc>
+        <lastmod>2013-10-05T11:07:58-07:00</lastmod>
+    </url>
+</urlset>

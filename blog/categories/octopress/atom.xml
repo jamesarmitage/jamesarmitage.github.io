@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | james armitage - random thoughts]]></title>
+  <link href="http://jamesarmitage.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://jamesarmitage.github.io/"/>
+  <updated>2013-10-05T11:34:58-07:00</updated>
+  <id>http://jamesarmitage.github.io/</id>
+  <author>
+    <name><![CDATA[James Armitage]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Taking Octopress for a test drive]]></title>
+    <link href="http://jamesarmitage.github.io/blog/2013/10/05/taking-octopress-for-a-test-drive/"/>
+    <updated>2013-10-05T11:23:00-07:00</updated>
+    <id>http://jamesarmitage.github.io/blog/2013/10/05/taking-octopress-for-a-test-drive</id>
+    <content type="html"><![CDATA[<p>After reading about Octopress, Jekyll and other static blogs, I wanted to give it a whirl myself.</p>
+
+<p>Since I can start off with free at GitHub, the barrier to entry is pretty low.  It&rsquo;s just a matter of adding a few DNS records to my already-existing domain and following the base READMEs.</p>
+
+<p>Longer term, I might want to bump this over to a Digital Ocean droplet, but for now this ought to suffice.</p>
+]]></content>
+  </entry>
+  
+</feed>
