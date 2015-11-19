@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://jamesarmitage.github.io
-title: james armitage - random thoughts
+title: james armitage - mac nerd / security geek
 subtitle: A blog about OS X, Linux, netsec and other stuff.
 author: James Armitage
 simple_search: http://google.com/search
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: james@jamesarmitage.ca
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -86,7 +86,7 @@ pinboard_user:
 pinboard_count: 3
 
 # Delicious
-delicious_user:
+delicious_user: j4m35
 delicious_count: 3
 
 # Disqus Comments
@@ -98,3 +98,6 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+# LinkedIn
+linkedin_user: jamesarmitage1

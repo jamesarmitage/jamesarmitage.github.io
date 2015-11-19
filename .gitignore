@@ -1,1 +1,8 @@
 .DS_Store
+*/.DS_Store
+.DS_Store?
+.Spotlight-v100
+.Trashes
+Icon?
+Thumbs.db
+ehthumbds.db
