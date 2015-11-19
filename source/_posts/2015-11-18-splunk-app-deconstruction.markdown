@@ -10,7 +10,7 @@ Splunk apps can be a mixed bag.  There's not a definitive style guide, and findi
 
 A quick and dirty way to find the lines of interest in an app:
 
-```shell
+```
 cd /opt/splunk/etc/apps/SA-something/
 find . -type f | xargs -I{} grep "your_query_here" {} /dev/null
 ```

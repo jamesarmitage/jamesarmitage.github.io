@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[james armitage - random thoughts]]></title>
+  <title><![CDATA[james armitage - mac nerd / security geek]]></title>
   <link href="http://jamesarmitage.github.io/atom.xml" rel="self"/>
   <link href="http://jamesarmitage.github.io/"/>
-  <updated>2013-10-05T22:00:36-07:00</updated>
+  <updated>2015-11-18T20:26:35-08:00</updated>
   <id>http://jamesarmitage.github.io/</id>
   <author>
     <name><![CDATA[James Armitage]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Splunk app deconstruction]]></title>
+    <link href="http://jamesarmitage.github.io/blog/2015/11/18/splunk-app-deconstruction/"/>
+    <updated>2015-11-18T20:10:00-08:00</updated>
+    <id>http://jamesarmitage.github.io/blog/2015/11/18/splunk-app-deconstruction</id>
+    <content type="html"><![CDATA[<p>Splunk apps can be a mixed bag.  There&rsquo;s not a definitive style guide, and finding the right line in a savedsearch.conf or transforms.conf can be occasionally frustrating.</p>
+
+<p>A quick and dirty way to find the lines of interest in an app:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cd /opt/splunk/etc/apps/SA-something/
+</span><span class='line'>find . -type f | xargs -I{} grep "your_query_here" {} /dev/null</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This will print all lines from all files matching your_query_here &mdash; with corresponding filenames and paths.</p>
+
+<p>You&rsquo;re probably thinking, &ldquo;well duh, that&rsquo;s what grep does&rdquo;, and that&rsquo;s true.  The nifty part of this is that by appending /dev/null to the query you&rsquo;ll also get the filename and path your query appears in, rather than an anonymous list of lines.</p>
+
+<p>This isn&rsquo;t Splunk-specific, it just happens to be handy for it.  It works just as well on Snort configs, or anything else where you might have a line of interest buried in a directory of files.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Taking Octopress for a test drive]]></title>

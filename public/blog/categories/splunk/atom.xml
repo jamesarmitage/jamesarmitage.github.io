@@ -4,7 +4,7 @@
   <title><![CDATA[Category: splunk | james armitage - mac nerd / security geek]]></title>
   <link href="http://jamesarmitage.github.io/blog/categories/splunk/atom.xml" rel="self"/>
   <link href="http://jamesarmitage.github.io/"/>
-  <updated>2015-11-18T20:20:27-08:00</updated>
+  <updated>2015-11-18T20:26:35-08:00</updated>
   <id>http://jamesarmitage.github.io/</id>
   <author>
     <name><![CDATA[James Armitage]]></name>
@@ -22,7 +22,7 @@
 
 <p>A quick and dirty way to find the lines of interest in an app:</p>
 
-<p><code>shell
+<p><code>
 cd /opt/splunk/etc/apps/SA-something/
 find . -type f | xargs -I{} grep "your_query_here" {} /dev/null
 </code>
